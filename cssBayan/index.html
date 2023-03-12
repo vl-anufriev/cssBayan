@@ -10,17 +10,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<section class="accordion">
-    <div class="accordion__element">
-        <div class="accordion__header">
-            <div class="accordion__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-            <div class="accordion__manage">
+<div class="container">
+    <div class="accordion_wrap">
+        <section class="accordion">
+            <a id="hide1" href="#hide1" class="hide accordion__title">Lorem ipsum dolor sit amet, consectetur.&nbsp;&nbsp;<i
+                    class="icon fa fa-plus" aria-hidden="true"></i></a>
+            <a id="show1" href="#show1" class="show accordion__title">Lorem ipsum dolor sit amet, consectetur.&nbsp;&nbsp;<i
+                    class="icon fa fa-times" aria-hidden="true"></i></a>
+            <div class="accordion__body">
+                <img src="images/1.png" alt="1 image">
             </div>
-        </div>
-        <div class="accordion__body">
-            <img src="images/1.png" alt="1 image">
-        </div>
+        </section>
+        <section class="accordion">
+            <a id="hide2" href="#hide2" class="hide accordion__title">Lorem ipsum dolor sit amet, consectetur.&nbsp;&nbsp;<i
+                    class="icon fa fa-plus" aria-hidden="true"></i></a>
+            <a id="show2" href="#show2" class="show accordion__title">Lorem ipsum dolor sit amet, consectetur.&nbsp;&nbsp;<i
+                    class="icon fa fa-times" aria-hidden="true"></i></a>
+            <div class="accordion__body">
+                <img src="images/2.png" alt="2 image">
+            </div>
+        </section>
     </div>
-</section>
+</div>
 </body>
 </html>
